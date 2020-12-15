@@ -1,2 +1,122 @@
-<h1>Bonjour le monde !</h1>
-<p>Je suis un paragraphe</p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Blog</title>
+        <style>
+            body
+            {
+                font-family: Helvetica;
+                margin:0;
+                padding: 0;
+            }
+            #image
+            {
+                width: 1em;
+            }
+            #kangourous
+            {
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                box-shadow: 3px 3px 3px #555555;
+            }
+            .header
+            {
+                position: fixed;
+                width: 100%;
+                background-color: #EEEEEE;
+                top: 0;
+                height: 110px;
+            }
+            .retour
+            {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                border: none;
+                background-color: lightblue;
+                padding: 10px;
+            }
+            .main
+            {
+                width: 100%;
+                position: fixed;
+                top: 110px;
+                bottom: 0;
+                overflow: auto;
+            }
+            h1
+            {
+            	font-weight: bold;
+                text-align: center;
+                font-size: 2em;
+                padding: 10px;
+            }
+            h2
+            {
+                margin-bottom: 0;
+                margin-left: 10px;
+                margin-top: 50px;
+            }
+            h3
+            {
+                margin-left: 10px;
+            }
+            h6
+            {
+                margin-top: 0;
+                margin-left: 10px;
+                font-style: italic;
+            }
+            p
+            {
+                margin-left: 1em;
+            }
+        </style>
+    </head>
+    <body>
+        
+    <div class="header"><h1><img src="https://www.kasandbox.org/programming-images/creatures/Hopper-Happy.png" alt="image de kangourous" id="image">Kangourous</h1></div>
+
+    <div class="main">
+        <h3 id="sommaire">Sommaire</h3>
+        <ul>
+            <li><a href="#premier-post">Régime alimentaire des kangourous !</a></li>
+            <li><a href="#second-post">Habitat des kangourous !</a></li>
+        </ul>
+        
+        <h2 id="premier-post">Régime alimentaire des kangourous</h2>
+        <h6>Poster le 08 décembre 2020</h6>
+        
+        <p>Le régime alimentaire des kangourous.</p>
+        
+        <p>Tous les kangourous sont herbivores. Toutefois, en fonction de l'espèce, les aliments qui composent leur régime alimentaire peuvent avoir un certain degré de variabilité.</p>
+        
+        <p>Kangourou géant se nourrit principalement de toutes sortes d'herbes.</p>
+        
+        <p>Kangourou roux se nourrit principalement d'arbustes, mais mange également diverses herbes.Kangourou gris se nourrit d'herbes des feuilles d'arbustes.</p>
+        
+        <p>Les plus petites espèces de kangourous peuvent également manger certains types de champignons.</p>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Red-Kangaroo.jpg" alt="Kangourous" id="kangourous">
+
+        <h2 id="second-post">Habitat des kangourous</h2>
+        <h6>Poster le 12 décembre 2020</h6>
+        
+        <p>L'habitat des kangourous.</p>
+        
+        <p>Les kangourous vivent : </p>
+        
+        <ul>
+            <li>en Autralie</li>
+            <li>en Tasmanie</li>
+            <li>dans les îles environnantes dans une variété d'habitats tels que les forêts, les bois, les plaines et savanes</li>
+        </ul>
+
+        <p>Selon les espèces, les kangourous occupent différentes niches de l'écosystème</p>
+    </div>
+    <a href="#sommaire"><button class="retour">En haut ↑</button></a>
+    </body>
+</html>
