@@ -1,4 +1,3 @@
-
 body
 {
     font-family: helvetica;
@@ -9,13 +8,13 @@ header
     top: 0;
     left: 0;
     width: 100%;
-    height: 15%;
+    height: 120px;
     background-color: #f0f0f0;
 }
 main
 {
     position: fixed;
-    top: 15%;
+    top: 120px;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -27,6 +26,7 @@ h1
     text-align: center;
 }
 
+/* Article */
 
 article h2
 {
@@ -46,6 +46,7 @@ article h6
     margin-left: 2%;
 }
 
+/* Bouton de retour en haut */
 
 .retour-haut
 {
@@ -71,7 +72,22 @@ article h6
     width: 72px;
 }
 
+/* Post */
+
 #premier-post-kangourous
 {
     width: 30%;
 }
+
+/* Sommaire */
+
+.sommaire h4
+{
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.sommaire ul
+{
+    margin-top: 0;
+}
+
