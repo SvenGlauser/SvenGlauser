@@ -22,12 +22,7 @@ header
     width: 100%;
     height: 130px;
     background-color: #f0f0f0;
-}
-header h1
-{
-    font-size: 2.5em;
-    text-align: center;
-    margin-bottom: 16px
+    box-shadow: 0px 4px 10px black;
 }
 header nav a
 {
@@ -40,6 +35,16 @@ header nav
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+#logo
+{
+    height: 130px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
 }
 
 /* Article */
@@ -60,10 +65,12 @@ article h6
 .article-entete
 {
     margin-left: 1%;
+    margin-right: 2%;
 }
 .article-main
 {
     margin-left: 2%;
+    margin-right: 2%;
 }
 
 /* Bouton de retour en haut */
@@ -97,6 +104,7 @@ article h6
 #premier-post-kangourous
 {
     width: 30%;
+    box-shadow: 3px 3px 3px black;
 }
 
 /* Sommaire */
