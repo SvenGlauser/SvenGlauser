@@ -1,0 +1,124 @@
+@media only screen and (max-width: 1080px) 
+{
+    body
+    {
+        font-family: helvetica;
+    }
+    main
+    {
+        position: fixed;
+        top: 40px;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        overflow: auto;
+    }
+
+    /* Entête */
+
+    header
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 40px;
+        background-color: #f0f0f0;
+        box-shadow: 0px 4px 10px black;
+    }
+    header nav a
+    {
+        text-decoration: none;
+        color: black;
+        font-size: 1.4em;
+    }
+    header nav
+    {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+    }
+    #logo
+    {
+        display: none;
+    }
+
+    /* Article */
+
+    article
+    {
+        margin-bottom: 50px;
+    }
+    article h2
+    {
+        margin-bottom: 0;
+    }
+    article h6
+    {
+        margin-top: 0;
+        font-style: italic;
+    }
+    .article-entete
+    {
+        margin-left: 1%;
+        margin-right: 2%;
+    }
+    .article-main
+    {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    /* Bouton de retour en haut */
+
+    .retour-haut
+    {
+        border: none;
+        z-index: 100;
+        position: fixed;
+        bottom: 2%;
+        right: 3%;
+    }
+    .retour-haut button
+    {
+        border: none;
+        border-radius: 7px;
+        box-shadow: 3px 3px 3px #00f8e8;
+        height: 50px;
+        width: 75px;
+        background-color: lightblue;
+    }
+    .retour-haut button:hover
+    {
+        box-shadow: 2px 2px 2px #00f8e8;
+        height: 45px;
+        width: 72px;
+    }
+
+    /* Post */
+
+    #premier-post-kangourous
+    {
+        width: 100%;
+        box-shadow: 3px 3px 3px black;
+    }
+
+    /* Sommaire */
+
+    .sommaire
+    {
+        margin-left: 1%;
+    }
+
+    .sommaire h4
+    {
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+    .sommaire ul
+    {
+        margin-top: 0;
+    }
+}
