@@ -65,13 +65,13 @@
     .article-entete
     {
         text-align: right;
-        margin-left: 1%;
-        margin-right: 2%;
+        margin-left: 2%;
+        margin-right: 3%;
     }
     .article-main
     {
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 3%;
+        margin-right: 3%;
         text-align: justify;
     }
 
@@ -110,8 +110,13 @@
     .sommaire
     {
         margin-left: 1%;
+        margin-top: 0;
     }
-
+    .sommaire h2
+    {
+        margin-top: 0;
+        padding-top: 10px;
+    }
     .sommaire h4
     {
         margin-bottom: 10px;
@@ -189,13 +194,13 @@
     }
     .article-entete
     {
-        margin-left: 1%;
-        margin-right: 2%;
+        margin-left: 2%;
+        margin-right: 3%;
     }
     .article-main
     {
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 3%;
+        margin-right: 3%;
         text-align: justify;
     }
 
@@ -235,8 +240,13 @@
     .sommaire
     {
         margin-left: 1%;
+        margin-top: 0;
     }
-
+    .sommaire h2
+    {
+        margin-top: 0;
+        padding-top: 10px;
+    }
     .sommaire h4
     {
         margin-bottom: 10px;
